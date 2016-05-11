@@ -1,0 +1,261 @@
+*{
+	box-sizing: border-box;
+}
+
+body{
+	font-family: 'Raleway', sans-serif;
+	margin: 0;
+}
+
+a{
+	text-decoration: none;
+}
+.wrapper{
+	max-width: 1200px;
+	margin: auto;
+    padding: 40px
+}
+
+header{
+	max-width: 1200px;
+	top: 0;
+	left: 0;
+	right: 0;
+	padding: 15px;
+	margin: 0 auto;
+	background-color: #fff;
+}
+
+.datos{
+    float:left;
+    width: 30%; 
+}
+
+.datos h1{
+    color: cadetblue;
+}
+
+.foto-perfil{
+    float:right;
+}
+
+figure {
+margin-left: 0
+} 
+
+.cleaner{
+	clear: both;
+}
+
+.profile h2 img,
+.profile h2 span{
+    display: inline-block;
+    vertical-align: middle;
+    color: cadetblue;
+}
+
+.skills h2 img,
+.skills h2 span{
+    display: inline-block;
+    vertical-align: middle;
+    color: cadetblue;
+   
+}
+
+.middle-icons{
+	width: 20%;
+	float: left;
+	background-color: #fff;
+	padding: 30px 15px;
+	margin: 2.5%;
+    text-align: center;
+}
+
+.education h2 img,
+.education h2 span{
+    display: inline-block;
+    vertical-align: middle;
+    color: cadetblue;
+}
+
+
+.education-item h4 img,
+.education-item h4 span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+.contact h2 img,
+.contact h2 span{
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+.mitad{
+    width: 45%;
+    margin: 2.5%;
+    float: left;
+    text-align: center;
+}
+
+.inputCV{
+    height: 70px;
+    border: solid 1px #ccc;
+    font-family: inherit;
+    font-size: 20px;
+    padding: 0 30px;
+    margin: 20px 0px;
+    width: 100%;
+}
+
+.grande{
+    height: 180px;
+}
+
+#boton{
+    padding: 5px 5%;
+    font-size: 1em;
+    background-color: #5dade2;
+    -webkit-border-radius:5px;
+    -webkit-transition: background-color 0.25s;
+    float: left;
+    margin: 0 43%;
+} 
+
+#boton:hover{
+    background-color: #7ABBE7;
+    }
+    
+    
+    
+
+@media (max-width: 860px){
+	.wrapper{
+		width: 96%;
+	}
+    .middle-icons{
+		width: 45%;
+        margin-right: 2.5%;
+        padding: 0 25px;
+    }
+    #boton{
+    width: 22%;
+    margin: 0 39%;
+    text-align: center;
+    } 
+    
+}
+
+       
+@media (max-width: 700px){
+
+    .datos{
+        float: right;
+	    text-align: center;
+        margin: 0 35%;
+        font-size: 13px;
+    }
+
+    .cont-fig{
+         margin: 3px -10px;
+        }
+    
+    .foto-perfil{
+        display: none
+    }
+
+    .profile{
+        font-size: 13px;
+    }
+    .profile p{
+        text-align: center;
+    }
+    .profile h2 img{
+    display: none; 
+    }
+    
+    .profile h2 span{
+        width: 50%;
+        margin: 0 25%;
+        text-align: center;
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+    }
+    
+    .skills{
+        font-size: 13px;
+    }
+    
+    .skills h2 img{
+        display: none;
+        margin-left: 35%;
+    }
+    .skills h2 span{
+        font-family: Helvetica, sans-serif;
+        text-align: center;
+        width: 80%;
+        margin: 0 10%;
+        font-size: 18px;
+    }
+    
+    .education h2 img{
+        display: none;
+    }
+    
+    .education h2 span{
+        text-align: center;
+        font-size: 18px;
+        font-family: Helvetica, sans-serif;
+        width: 80%;
+        margin: 0 10%;
+    }
+    
+    .education-item{
+        text-align: center;
+    }
+ 
+ }
+ 
+ 
+@media (max-width: 480px){
+	.buscador input[type=submit]{
+	    font-size:17px;
+        width: 25%
+    }
+    .middle-icons{
+        float: none;
+        width: 80%;
+        margin: 0 10%;
+        text-align: center;
+    }
+ 
+    
+    .profile h2 span{
+        text-align: center;
+        width: 80%;
+        margin: 0 10%;
+    }
+    
+   .skills h2 span{
+        text-align: center;
+        width: 80%;
+        margin: 0 10%;
+            
+   }
+   
+   .education h2 span {
+        text-align: center;
+        width: 80%;
+        margin: 0 10%;
+   }
+   .education-item h4 img{
+       display: none;
+   }
+   
+   .mitad{
+    width: 100%;
+    margin: 0;
+    }
+
+ }
